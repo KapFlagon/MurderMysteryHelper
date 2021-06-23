@@ -1,9 +1,10 @@
-.idea/**
-out/**
-gradle/**
 .gradle/**
+.idea/**
+build/**
+design/**
+gradle/**
+out/**
 build/**
 gradlew.bat
 gradlew
-design/**
 src/Notes.MD
