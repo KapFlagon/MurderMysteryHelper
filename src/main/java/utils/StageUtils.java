@@ -1,5 +1,7 @@
 package utils;
 
+import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -33,12 +35,17 @@ public class StageUtils {
 
     public static void setCurrentScene(Scene currentScene) {
         StageUtils.currentScene = currentScene;
+        mainStage.setScene(currentScene);
     }
 
     // Initialisation methods
 
 
     // Other methods
+    public static void changeCurrentScene(Parent parent) {
+        Scene newScene = new Scene(parent);
+        setCurrentScene(newScene);
+    }
 
 
 }
