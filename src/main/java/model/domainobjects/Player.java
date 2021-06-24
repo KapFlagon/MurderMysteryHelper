@@ -15,6 +15,14 @@ public class Player {
 
 
     // Constructors
+    public Player() {
+
+    }
+
+    public Player(String player_name, boolean playing_game) {
+        this.player_name = player_name;
+        this.playing_game = playing_game;
+    }
 
 
     // Getters and Setters
